@@ -14,7 +14,7 @@
 
 body {
     background: var(--segunda);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial Black', Times, serif;
     color: white;
 }
 
@@ -48,7 +48,7 @@ header nav a:hover {
 .serie-principal {
     font-size: 16px;
     background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)), url('/img/capa-super.jpg');
-    height: 400px;
+    height: auto;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -76,6 +76,7 @@ header nav a:hover {
     font-size: 12px;
     cursor: pointer;
     transition: .3s ease all;
+    margin-bottom: 20px;
 }
 
 .botao:hover {
@@ -99,4 +100,9 @@ header nav a:hover {
     height: 100%;
     width: 100%;
     display: block;
+    margin-top: 10px;
+}
+
+.descricao {
+    font-family: Arial;
 }
